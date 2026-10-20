@@ -2394,3 +2394,278 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2026.10.20-22.05.28:745][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 308.583801
 [2026.10.20-22.05.29:746][370]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.10.20-22.05.29:746][370]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 309.250244, Update Interval: 356.442139
+[2026.10.20-22.06.17:042][969]LogInterchangeEngine: [Pending] Importing
+[2026.10.20-22.06.17:055][969]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2026.10.20-22.06.17:078][969]LogInterchangeEngine: [Pending] Importing - Operation Completed.
+[2026.10.20-22.06.17:078][969]LogInterchangeEngine: [Success] Import Done
+[2026.10.20-22.06.17:155][969]LogSlate: Display: Synchronously lazy loading font file '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' with subface index 0 in Game thread.
+[2026.10.20-22.06.17:155][969]LogSlate: Display: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K) on Game thread.
+[2026.10.20-22.06.17:155][969]LogSlate: Display: Freetype font face in memory successfully created with synchronously loaded raw font file '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' subface 0 in Game thread.
+[2026.10.20-22.06.17:155][969]LogSlate: Display: Font face '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' subface index 0 successfully added to font face map in Game thread.
+[2026.10.20-22.06.17:217][970]LogInterchangeEngine: [Pending] Importing
+[2026.10.20-22.06.17:248][970]LogInterchangeEngine: [Pending] Importing - Operation Completed.
+[2026.10.20-22.06.17:248][970]LogInterchangeEngine: [Success] Import Done
+[2026.10.20-22.06.17:361][971]LogInterchangeEngine: [Pending] Importing
+[2026.10.20-22.06.17:402][971]LogInterchangeEngine: [Pending] Importing - Operation Completed.
+[2026.10.20-22.06.17:402][971]LogInterchangeEngine: [Success] Import Done
+[2026.10.20-22.06.17:571][972]LogInterchangeEngine: [Pending] Importing
+[2026.10.20-22.06.17:596][972]LogInterchangeEngine: [Pending] Importing - Operation Completed.
+[2026.10.20-22.06.17:596][972]LogInterchangeEngine: [Success] Import Done
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: ================================================
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Total job queries 440, among them cache hits 47 (10.68%), DDC hits 296 (67.27%), Duplicates 28 (6.36%)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Tracking 365 distinct input hashes that result in 271 distinct outputs (74.25%)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: RAM used: 3.47 MiB of 1.60 GiB budget. Usage: 0.21%
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Shaders Compiled: 74
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Jobs assigned 74, completed 74 (100%)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Average time worker was idle: 0.15 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Time job spent in pending queue: average 1.83 s, longest 3.92 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Job execution time: average 0.66 s, max 1.88 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Job life time (pending + execution): average 2.49 s, max 4.83
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Shader code size: total 646.87 KiB, numShaders 85, average 7.609 KiB, min 2.926 KiB, max 17.039 KiB
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.93 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Jobs were issued in 74 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Average processing rate: 12.47 jobs/sec
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Total thread time: 39.836 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Total thread preprocess time: 10.846 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Percentage time preprocessing: 27.23%
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Effective parallelization: 6.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.671412
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    6 times, average 1.32 sec, max 1.38 sec, min 1.27 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 0.87 sec, max 0.93 sec, min 0.63 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:            TVelocityPS<EVelocityPassMode::Velocity_Standard> (compiled    9 times, average 0.56 sec, max 0.59 sec, min 0.51 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    2 times, average 0.49 sec, max 0.51 sec, min 0.48 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 21.93% of total time (compiled   10 times, average 0.87 sec, max 0.93 sec, min 0.63 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 19.81% of total time (compiled    6 times, average 1.32 sec, max 1.38 sec, min 1.27 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:            TVelocityPS<EVelocityPassMode::Velocity_Standard> - 12.69% of total time (compiled    9 times, average 0.56 sec, max 0.59 sec, min 0.51 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.44% of total time (compiled   14 times, average 0.33 sec, max 0.38 sec, min 0.27 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display:                                                 FLumenCardPS - 10.07% of total time (compiled   15 times, average 0.27 sec, max 0.31 sec, min 0.21 sec)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: === Material stats ===
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Materials Translated:    160
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Material Total Translate Time: 0.15 s
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: Material Cache Hits: 16 (10%)
+[2026.10.20-22.06.25:552][293]LogShaderCompilers: Display: ================================================
+[2026.10.20-22.06.26:092][320]LogDatasmithContent: Do not use the UDatasmithStaticMeshCADImportData to store CAD data as the class is now deprecated.
+[2026.10.20-22.06.26:127][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.20-22.06.26:127][320]LogFileHelpers: Saving Package: /Game/Assets/Textures/IPhone13_IPhone13_BaseColor
+[2026.10.20-22.06.26:127][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/IPhone13_IPhone13_BaseColor] ([1] browsable assets)...
+[2026.10.20-22.06.26:130][320]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/IPhone13_IPhone13_BaseColor.IPhone13_IPhone13_BaseColor]
+[2026.10.20-22.06.26:130][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/IPhone13_IPhone13_BaseColor]
+[2026.10.20-22.06.26:138][320]LogSavePackage: Moving output files for package: /Game/Assets/Textures/IPhone13_IPhone13_BaseColor
+[2026.10.20-22.06.26:138][320]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/IPhone13_IPhone13_BaseColor7428DE134AD190CF73EEA490C60A7CBC.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_BaseColor.uasset'
+[2026.10.20-22.06.26:140][320]LogFileHelpers: Saving Package: /Game/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic
+[2026.10.20-22.06.26:140][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2026.10.20-22.06.26:142][320]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic.IPhone13_IPhone13_OcclusionRoughnessMetallic]
+[2026.10.20-22.06.26:142][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic]
+[2026.10.20-22.06.26:150][320]LogSavePackage: Moving output files for package: /Game/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic
+[2026.10.20-22.06.26:150][320]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/IPhone13_IPhone13_OcclusionRough9FD3ACD84D51EB6332240C9506D54931.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic.uasset'
+[2026.10.20-22.06.26:152][320]LogFileHelpers: Saving Package: /Game/Assets/Textures/IPhone13_IPhone13_Normal
+[2026.10.20-22.06.26:152][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/IPhone13_IPhone13_Normal] ([1] browsable assets)...
+[2026.10.20-22.06.26:153][320]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/IPhone13_IPhone13_Normal.IPhone13_IPhone13_Normal]
+[2026.10.20-22.06.26:153][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/IPhone13_IPhone13_Normal]
+[2026.10.20-22.06.26:162][320]LogSavePackage: Moving output files for package: /Game/Assets/Textures/IPhone13_IPhone13_Normal
+[2026.10.20-22.06.26:162][320]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/IPhone13_IPhone13_Normal095E77F0440CD2A309ED259262C39FBF.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_Normal.uasset'
+[2026.10.20-22.06.26:163][320]LogFileHelpers: Saving Package: /Game/Assets/Textures/IPhone13_IPhone13_Emissive
+[2026.10.20-22.06.26:163][320]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Textures/IPhone13_IPhone13_Emissive] ([1] browsable assets)...
+[2026.10.20-22.06.26:166][320]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Textures/IPhone13_IPhone13_Emissive.IPhone13_IPhone13_Emissive]
+[2026.10.20-22.06.26:166][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Textures/IPhone13_IPhone13_Emissive]
+[2026.10.20-22.06.26:174][320]LogSavePackage: Moving output files for package: /Game/Assets/Textures/IPhone13_IPhone13_Emissive
+[2026.10.20-22.06.26:174][320]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/IPhone13_IPhone13_Emissive022D07C745E6DC36469DF4A04A897B64.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_Emissive.uasset'
+[2026.10.20-22.06.26:175][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.741 ms (total: 203.285 ms)
+[2026.10.20-22.06.26:289][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.10.20-22.06.26:319][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.10.20-22.06.26:345][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2026.10.20-22.06.26:417][320]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2026.10.20-22.06.26:417][320]LogContentValidation: Enabled validators:
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.20-22.06.26:417][320]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.20-22.06.26:417][320]LogContentValidation: Display: Starting to validate 4 assets (0 associated objects such as actors)
+[2026.10.20-22.06.26:417][320]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.10.20-22.06.26:417][320]AssetCheck: /Game/Assets/Textures/IPhone13_IPhone13_BaseColor Validating asset
+[2026.10.20-22.06.26:417][320]AssetCheck: /Game/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic Validating asset
+[2026.10.20-22.06.26:417][320]AssetCheck: /Game/Assets/Textures/IPhone13_IPhone13_Normal Validating asset
+[2026.10.20-22.06.26:417][320]AssetCheck: /Game/Assets/Textures/IPhone13_IPhone13_Emissive Validating asset
+[2026.10.20-22.06.26:417][320]LogContentValidation: Validated asset counts for 9 validators:
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 4
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.20-22.06.26:417][320]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.20-22.06.26:450][320]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.20-22.06.52:057][609]LogMaterialEditor: Applying material M_IPhone_13
+[2026.10.20-22.06.52:178][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.10.20-22.06.53:633][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2026.10.20-22.07.04:248][210]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2026.10.20-22.07.48:407][783]LogSlate: Display: Font face '../../Content/Slate/Fonts/Roboto-Regular.ttf' subface index 0 successfully added to font face map in Game thread.
+[2026.10.20-22.08.21:964][727]Cmd: TRANSACTION UNDO
+[2026.10.20-22.08.21:965][727]LogEditorTransaction: Undo Break Pin Link
+[2026.10.20-22.08.22:092][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.10.20-22.08.23:557][727]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.10.20-22.09.09:092][303]LogMaterialEditor: Applying material M_IPhone_13
+[2026.10.20-22.09.09:201][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.10.20-22.09.10:559][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: ================================================
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Total job queries 597, among them cache hits 86 (14.41%), DDC hits 317 (53.10%), Duplicates 41 (6.87%)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Tracking 428 distinct input hashes that result in 298 distinct outputs (69.63%)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: RAM used: 3.80 MiB of 1.60 GiB budget. Usage: 0.23%
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Shaders Compiled: 187
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Jobs assigned 187, completed 187 (100%)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Average time worker was idle: 13.31 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Time job spent in pending queue: average 0.77 s, longest 3.92 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.88 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Job life time (pending + execution): average 1.33 s, max 4.83
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Shader code size: total 1.655 MiB, numShaders 198, average 8.562 KiB, min 2.926 KiB, max 24.746 KiB
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 21.67 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Jobs were issued in 187 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Average processing rate: 8.63 jobs/sec
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Total thread time: 83.93 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Total thread preprocess time: 14.854 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Percentage time preprocessing: 17.70%
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Effective parallelization: 3.87 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.387376
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    6 times, average 1.32 sec, max 1.38 sec, min 1.27 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   28 times, average 0.81 sec, max 1.20 sec, min 0.61 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    6 times, average 0.81 sec, max 0.92 sec, min 0.73 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    3 times, average 0.72 sec, max 0.78 sec, min 0.65 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    3 times, average 0.67 sec, max 0.72 sec, min 0.59 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 27.17% of total time (compiled   28 times, average 0.81 sec, max 1.20 sec, min 0.61 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.48% of total time (compiled   38 times, average 0.30 sec, max 0.50 sec, min 0.21 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                                 FLumenCardPS - 10.99% of total time (compiled   30 times, average 0.31 sec, max 0.91 sec, min 0.17 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 9.40% of total time (compiled    6 times, average 1.32 sec, max 1.38 sec, min 1.27 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 7.87% of total time (compiled   31 times, average 0.21 sec, max 0.33 sec, min 0.17 sec)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: === Material stats ===
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Materials Translated:    203
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Material Translation Only: 0.06 s (38%)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: Material Cache Hits: 16 (8%)
+[2026.10.20-22.09.25:553][175]LogShaderCompilers: Display: ================================================
+[2026.10.20-22.09.37:473][863]LogMaterialEditor: Applying material M_IPhone_13
+[2026.10.20-22.09.37:581][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.10.20-22.09.38:886][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2026.10.20-22.10.01:131][161]LogStreaming: Display: FlushAsyncLoading(470): 1 QueuedPackages, 0 AsyncPackages
+[2026.10.20-22.10.01:165][161]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2026.10.20-22.10.01:440][161]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.14.dll
+[2026.10.20-22.10.24:487][455]LogMaterialEditor: Applying material M_IPhone_13
+[2026.10.20-22.10.24:593][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.10.20-22.10.25:087][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.10.20-22.11.15:239][348]LogMaterialEditor: Applying material M_IPhone_13
+[2026.10.20-22.11.15:395][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.10.20-22.11.18:749][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.20-22.11.29:385][925]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 669.225952
+[2026.10.20-22.11.29:466][930]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.10.20-22.11.29:466][931]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 669.287720, Update Interval: 347.942139
+[2026.10.20-22.11.29:876][954]LogMaterialEditor: Applying material M_IPhone_13
+[2026.10.20-22.11.30:036][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2026.10.20-22.11.33:545][954]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.20-22.11.33:819][957]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.20-22.11.33:819][957]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.20-22.11.33:819][957]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.20-22.11.33:824][957]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.10.20-22.11.46:772][691]LogMaterialEditor: Saving and Compiling material M_IPhone_13
+[2026.10.20-22.11.46:934][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.10.20-22.11.47:940][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.10.20-22.11.47:954][691]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.10.20-22.11.47:994][691]LogFileHelpers: Saving Package: /Game/Assets/Materials/Props/IPhone_13/M_IPhone_13
+[2026.10.20-22.11.47:994][691]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Materials/Props/IPhone_13/M_IPhone_13] ([1] browsable assets)...
+[2026.10.20-22.11.48:007][691]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Materials/Props/IPhone_13/M_IPhone_13.M_IPhone_13]
+[2026.10.20-22.11.48:007][691]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Materials/Props/IPhone_13/M_IPhone_13]
+[2026.10.20-22.11.48:013][691]LogSavePackage: Moving output files for package: /Game/Assets/Materials/Props/IPhone_13/M_IPhone_13
+[2026.10.20-22.11.48:013][691]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/M_IPhone_136D13440E4E3E4CA54F71AC96CE20D35C.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Materials/Props/IPhone_13/M_IPhone_13.uasset'
+[2026.10.20-22.11.48:026][691]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.464 ms (total: 274.749 ms)
+[2026.10.20-22.11.48:064][691]LogContentValidation: Enabled validators:
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_ActionUtility
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/MutableValidation.AssetValidator_CustomizableObjects
+[2026.10.20-22.11.48:064][691]LogContentValidation: 	/Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects
+[2026.10.20-22.11.48:064][691]LogContentValidation: Display: Starting to validate 1 assets (0 associated objects such as actors)
+[2026.10.20-22.11.48:064][691]LogContentValidation: Additional assets added for validation by 0 validators:
+[2026.10.20-22.11.48:064][691]AssetCheck: /Game/Assets/Materials/Props/IPhone_13/M_IPhone_13 Validating asset
+[2026.10.20-22.11.48:064][691]LogContentValidation: Validated asset counts for 9 validators:
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/DataValidation.DirtyFilesChangelistValidator : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/DataValidation.EditorValidator_ActionUtility : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/DataValidation.EditorValidator_Localization : 1
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/DataValidation.EditorValidator_Material : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/DataValidation.PackageFileValidator : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/DataValidation.WorldPartitionChangelistValidator : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/MutableValidation.AssetValidator_CustomizableObjects : 0
+[2026.10.20-22.11.48:064][691]LogContentValidation:   /Script/MutableValidation.AssetValidator_ReferencedCustomizableObjects : 0
+[2026.10.20-22.11.48:117][691]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/SourceControl/UncontrolledChangelists.json
+[2026.10.20-22.12.12:535][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.10.20-22.12.12:544][784]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/X6/XZ7IVUO50Y949UCMEW6Q1Y_Auto1
+[2026.10.20-22.12.12:544][784]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/XZ7IVUO50Y949UCMEW6Q1Y_Auto123C1604044A99A8C870E41A192B87537.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/X6/XZ7IVUO50Y949UCMEW6Q1Y_Auto1.uasset'
+[2026.10.20-22.12.12:545][784]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Lvl_ThirdPerson' took 0.032
+[2026.10.20-22.12.12:545][784]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.032
+[2026.10.20-22.12.12:546][784]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Models/Props/IPhone13] ([1] browsable assets)...
+[2026.10.20-22.12.12:761][784]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Models/Props/IPhone13.IPhone13]
+[2026.10.20-22.12.12:761][784]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Models/Props/IPhone13]
+[2026.10.20-22.12.12:771][784]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Models/Props/IPhone13_Auto1
+[2026.10.20-22.12.12:771][784]LogSavePackage: Moving '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/IPhone13_Auto1FF35E4BD40A2DA892F6F459E32E6CCC8.tmp' to '../../../../../../Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Saved/Autosaves/Game/Assets/Models/Props/IPhone13_Auto1.uasset'
+[2026.10.20-22.12.12:772][784]LogFileHelpers: Auto-saving content packages took 0.228
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: ================================================
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Total job queries 834, among them cache hits 142 (17.03%), DDC hits 317 (38.01%), Duplicates 77 (9.23%)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Tracking 511 distinct input hashes that result in 362 distinct outputs (70.84%)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: RAM used: 4.37 MiB of 1.60 GiB budget. Usage: 0.27%
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Shaders Compiled: 336
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Jobs assigned 336, completed 336 (100%)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Average time worker was idle: 11.53 s
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Time job spent in pending queue: average 0.65 s, longest 3.92 s
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Job execution time: average 0.60 s, max 2.17 s
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Job life time (pending + execution): average 1.26 s, max 4.83
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Shader code size: total 3.063 MiB, numShaders 349, average 8.988 KiB, min 2.711 KiB, max 28.344 KiB
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 40.73 s
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Jobs were issued in 336 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Average processing rate: 8.25 jobs/sec
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Total thread time: 165.422 s
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Total thread preprocess time: 21.338 s
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Percentage time preprocessing: 12.90%
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Effective parallelization: 4.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 10 - 0.406137
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS (compiled   10 times, average 1.56 sec, max 2.06 sec, min 1.23 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    4 times, average 1.43 sec, max 1.69 sec, min 1.22 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   15 times, average 1.23 sec, max 1.75 sec, min 0.88 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    8 times, average 0.81 sec, max 0.92 sec, min 0.72 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   36 times, average 0.78 sec, max 1.20 sec, min 0.60 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 17.03% of total time (compiled   36 times, average 0.78 sec, max 1.20 sec, min 0.60 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 11.16% of total time (compiled   15 times, average 1.23 sec, max 1.75 sec, min 0.88 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                               FHWRasterizePS - 11.03% of total time (compiled   30 times, average 0.61 sec, max 0.68 sec, min 0.47 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 9.46% of total time (compiled   10 times, average 1.56 sec, max 2.06 sec, min 1.23 sec)
+[2026.10.20-22.12.25:794][824]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.44% of total time (compiled   55 times, average 0.28 sec, max 0.50 sec, min 0.19 sec)
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: === Material stats ===
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: Materials Translated:    238
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: Material Translation Only: 0.07 s (39%)
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: Material Cache Hits: 16 (7%)
+[2026.10.20-22.12.25:796][824]LogShaderCompilers: Display: ================================================
