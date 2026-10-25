@@ -5,12 +5,29 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Materials/Props/IPhone_13/M_IPhone_13.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Models/Props/IPhone13.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/Iphone/IPhone13_IPhone13_BaseColor.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/Iphone/IPhone13_IPhone13_Emissive.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/Iphone/IPhone13_IPhone13_Normal.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/Iphone/IPhone13_IPhone13_OcclusionRoughnessMetallic.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Models/Props/Reception_Desk.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Materials/Props/ReceptionDesk.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/YH/XBKXW8DZLC1EWRUWZPTHBC.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/DG/FRXCDA7JRC9JSDI1QS65FR.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/ReceptionDesk/Reception_Desk_DefaultMaterial_BaseColor.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/ReceptionDesk/Reception_Desk_DefaultMaterial_Emissive.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/ReceptionDesk/Reception_Desk_DefaultMaterial_Height.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/ReceptionDesk/Reception_Desk_DefaultMaterial_Metallic.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/ReceptionDesk/Reception_Desk_DefaultMaterial_Normal.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/ReceptionDesk/Reception_Desk_DefaultMaterial_Roughness.uasset",
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset",
 				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/X6/XZ7IVUO50Y949UCMEW6Q1Y.uasset",
 				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_BaseColor.uasset",
 				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_OcclusionRoughnessMetallic.uasset",
 				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_Normal.uasset",
 				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Textures/IPhone13_IPhone13_Emissive.uasset",
-				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Materials/Props/IPhone_13/M_IPhone_13.uasset"
+				"C:/Users/bowen/Documents/GitHub/Modelling1_FBX_Repo/Modeling_Class_6/Content/Assets/Models/Reception_Desk.uasset"
 			]
 		}
 	]
